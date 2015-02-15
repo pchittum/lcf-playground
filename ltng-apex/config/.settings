@@ -1,0 +1,30 @@
+{
+    "username": "pchittum-ojmx@force.com", 
+    "project_name": "ltng-gtm-apex", 
+    "org_url": "", 
+    "namespace": "", 
+    "metadata_container": "1dcB00000004zgjIAA", 
+    "environment": "production", 
+    "workspace": "/Users/pchittum/Stuff/git", 
+    "id": "R2KSURQHVYH8LF05SXRKU0IP1US6BADG", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "AppMenu", 
+        "AuraDefinitionBundle", 
+        "ConnectedApp", 
+        "CorsWhitelistOrigin", 
+        "CustomLabels", 
+        "CustomObject", 
+        "CustomPermission", 
+        "CustomTab", 
+        "FlexiPage", 
+        "Layout", 
+        "PermissionSet", 
+        "Profile", 
+        "QuickAction", 
+        "StaticResource"
+    ]
+}

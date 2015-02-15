@@ -1,0 +1,17 @@
+<aura:component controller="AccountController">
+
+    <aura:attribute name="account" type="Account"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+	<force:inputField value="{!v.account.Name}"/>
+<!--
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<aura:attribute name="acct" type="Account"/>
+
+	<force:inputField value="{!v.acct.Name}"/>
+-->
+	<!--
+	<ui:inputText value="{!v.account.Name}"/>
+	<force:inputField value="{!v.account.Name}"/>
+	-->
+
+</aura:component>

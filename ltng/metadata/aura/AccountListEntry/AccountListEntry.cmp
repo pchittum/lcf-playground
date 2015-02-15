@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute name="account" type="Account"/>
+    <aura:registerEvent name="AccountSelectedEvent" type="c:AccountSelected"/>
+    <tr>
+        <td class="datacell"><a onclick="{!c.viewAccount}">{!v.account.Name}</a></td>
+        <td class="datacell">{!v.account.Industry}</td>
+    </tr>
+</aura:component>

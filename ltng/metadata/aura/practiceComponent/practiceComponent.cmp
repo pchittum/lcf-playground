@@ -1,0 +1,19 @@
+<aura:component controller="ltngPractice">
+
+	<aura:handler name="init" value="{!this}" action="{!c.setOutputText}" /> 
+	<!--<aura:handler name="change" value="{!v.txtVal}" action="{!c.setOutputText}"/>-->
+	<aura:attribute name="txtVal" type="String"/>
+
+	<div>
+		<ui:inputText aura:id="txtIn" value="{!v.txtVal}"/>
+	</div>
+
+	<div>
+		<ui:outputText aura:id="txtOut" value="{!v.txtVal}" />
+	</div>
+
+	<div>
+		<ui:button press="{!c.setOutputText}" label="click"/>
+	</div>
+
+</aura:component>

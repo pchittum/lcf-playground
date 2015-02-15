@@ -1,0 +1,199 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "FileController_test", 
+    "tableDeclaration": {
+        "type": "FileController_test", 
+        "modifiers": [
+            "TEST"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 2
+        }, 
+        "name": "FileController_test"
+    }, 
+    "key": "01pB0000000BpXFIA0", 
+    "variables": [
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 7
+            }, 
+            "name": "acctTest"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 10
+            }, 
+            "name": "testFileStr"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 12
+            }, 
+            "name": "acctId"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 14
+            }, 
+            "name": "attachmentId"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 18
+            }, 
+            "name": "retrievedAcct"
+        }, 
+        {
+            "type": "Attachment", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 20
+            }, 
+            "name": "a"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 29
+            }, 
+            "name": "attachmentBodyLen"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 30
+            }, 
+            "name": "acctTest"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 33
+            }, 
+            "name": "testFileStr"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 35
+            }, 
+            "name": "acctId"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 37
+            }, 
+            "name": "attachmentId"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 41
+            }, 
+            "name": "retrievedAcct"
+        }, 
+        {
+            "type": "Attachment", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 43
+            }, 
+            "name": "a"
+        }, 
+        {
+            "type": "Attachment", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 52
+            }, 
+            "name": "a"
+        }
+    ], 
+    "id": "01pB0000000BpXFIA0", 
+    "methods": [
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "testFileUploader", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 5
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "testFileBatcher", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 27
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

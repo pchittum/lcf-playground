@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+<aura:attribute name="URL" type="String" default="http://www2.sfdcstatic.com/common/assets/img/logo-company.png" />
+    <aura:attribute name="align" type="String" default="center"/>
+    <div align="{!v.align}">
+        <div class="wrapper">
+    	    <img src="{!v.URL}"/>
+	    </div>
+    </div>
+</aura:component>

@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable" controller="ExpenseController">
+    <aura:attribute name="exps" type="Expense__c[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:iteration items="{!v.exps}" var="exp">
+        <ui:outputText value="{!exp.Name}"/>
+        <ui:outputCurrency value="{!exp.Amount__c}"/>
+    </aura:iteration>
+</aura:component>

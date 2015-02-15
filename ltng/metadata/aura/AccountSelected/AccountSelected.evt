@@ -1,0 +1,5 @@
+<aura:event type="APPLICATION" description="Select an Account">
+    <aura:attribute name="account" type="Account" />
+    <aura:attribute name="msg" type="String" />
+    
+</aura:event>

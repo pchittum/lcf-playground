@@ -1,0 +1,23 @@
+<aura:component >
+  <aura:attribute name="expense" type="Expense__c"/>
+  <!-- Color the item blue if the expense is reimbursed -->
+  <div class="{!v.expense.Reimbursed__c == true
+? 'listRecord recordLayout blue' : 'listRecord recordLayout white'}">
+    <a aura:id="expense" href="{!'/' + v.expense.Id}">
+      <div class="itemTitle">{!v.expense.Name}</div>
+    </a>
+      <div class="recordItem">Amount:
+          <ui:outputNumber value="{!v.expense.Amount__c}" format=".00"/>
+      </div>
+      <div class="recordItem">Client:
+          <ui:outputText value="{!v.expense.Client__c}"/>
+      </div>
+      <div class="recordItem">Date:
+          <ui:outputDateTime value="{!v.expense.Date__c}" />
+      </div>
+      <div class="recordItem">Reimbursed?
+          <ui:inputCheckbox value="{!v.expense.Reimbursed__c}" click="{!c.update}"/>
+      </div>
+      <!--<c:fileUpload parentId="{!v.expense.Id}"/>--> 
+    </div>
+</aura:component>

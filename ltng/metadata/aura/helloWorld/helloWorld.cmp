@@ -1,0 +1,8 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="greeting" type="String" default="Hello" />
+    <aura:attribute name="subject" type="String" default="World" />
+
+    <div style="box">
+    	<span class="greeting">{!v.greeting}</span>, {!v.subject}!
+    </div>
+</aura:component>

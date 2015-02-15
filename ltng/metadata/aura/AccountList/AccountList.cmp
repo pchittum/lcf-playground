@@ -1,0 +1,26 @@
+<aura:component controller="AccountController" implements="flexipage:availableForAllPageTypes">
+ 
+    <!-- Attributes for Account List -->
+    <aura:attribute name="accounts" type="List"/>
+    
+    <!-- Initialization event handler -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+   
+    <!-- Display Account Data from Model -->
+    <div align="center">
+        <div class="row">
+		  <!-- Use the Apex model and controller to fetch server side data -->
+        <table class="mastertable">
+            <tr>
+                <td class="tablehead">Company</td>
+                <td class="tablehead">Industry</td>
+            </tr>
+            <aura:iteration items="{!v.accounts}" var="account">
+               <c:AccountListEntry account="{!account}" />             
+	        </aura:iteration>
+        </table>
+        </div>
+    </div>
+    
+    
+</aura:component>

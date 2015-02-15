@@ -1,0 +1,38 @@
+<aura:component implements="flexipage:availableForAllPageTypes" >
+
+    <aura:handler event="c:AccountSelected" action="{!c.onAccountSelectedEvent}"/>
+
+    <!-- Attribute for the card's Account record -->
+    <aura:attribute name="account" type="Account" />
+    <aura:attribute name="id" type="String"/>
+    <aura:attribute name="id-link" type="String"/>
+    <aura:attribute name="accountName" type="String"/>
+    <aura:attribute name="mapURL" type="String"/>
+    
+    <aura:attribute name="foo" type="String" default="bar"/>
+
+        <div class="listRecord recordLayout">
+       
+ 		<aura:if isTrue="{!v.accountName}">
+            <div class="itemTitle">
+                <a onclick="{!c.linkToRecord}"><ui:outputText value="{!v.accountName}"/></a>
+            </div>
+            <div class="hr"></div>
+            <div>
+                <img src="{!v.mapURL}"/>
+            </div>
+            
+            
+
+            <aura:set attribute="else">
+                <div class="itemTitle">
+                <ui:outputText value="No Account Selected"/>
+                </div>
+            </aura:set>
+        </aura:if>
+            
+
+    </div>
+    
+<!--    <builder:AccountCardContent account="{!account}" />-->
+</aura:component>

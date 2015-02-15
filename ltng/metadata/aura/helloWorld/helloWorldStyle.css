@@ -1,0 +1,8 @@
+@media screen and (orientation:landscape) {
+    .THIS{
+    background: #E44949;}
+}
+
+.THIS .greeting {
+	color: #ff0000;
+}

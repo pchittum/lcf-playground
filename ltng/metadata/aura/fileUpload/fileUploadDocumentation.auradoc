@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Full props to Peter Knolle and his early experimentation with Lightning Components. This is his with a few minor changes, including listening for a particular event to set the parentId and setting the actions to be exclusive (not use the boxcar feature of ActionService.)</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+		Example Description
+	</aura:example>
+</aura:documentation>

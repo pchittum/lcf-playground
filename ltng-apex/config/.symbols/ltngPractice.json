@@ -1,0 +1,191 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [
+        {
+            "properties": [
+                {
+                    "modifiers": [], 
+                    "name": "str", 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 23, 
+                        "line": 19
+                    }, 
+                    "type": "String"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "num", 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 24, 
+                        "line": 20
+                    }, 
+                    "type": "Integer"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "bool", 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 24, 
+                        "line": 21
+                    }, 
+                    "type": "Boolean"
+                }
+            ], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [], 
+            "namespace": null, 
+            "name": "DataClass", 
+            "tableDeclaration": {
+                "type": "DataClass", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 18, 
+                    "line": 18
+                }, 
+                "name": "DataClass"
+            }, 
+            "key": null, 
+            "variables": [], 
+            "id": null, 
+            "methods": []
+        }
+    ], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "ltngPractice", 
+    "tableDeclaration": {
+        "type": "ltngPractice", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "ltngPractice"
+    }, 
+    "key": "01pB0000000Bl0tIAC", 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 45, 
+                "line": 4
+            }, 
+            "name": "str"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 5
+            }, 
+            "name": "retStr"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 48, 
+                "line": 10
+            }, 
+            "name": "strParam"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 66, 
+                "line": 10
+            }, 
+            "name": "intParam"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 84, 
+                "line": 10
+            }, 
+            "name": "boolParam"
+        }, 
+        {
+            "type": "DataClass", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 11
+            }, 
+            "name": "resp"
+        }
+    ], 
+    "id": "01pB0000000Bl0tIAC", 
+    "methods": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "doSomething", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "str"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 4
+            }, 
+            "returnType": "String", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "composeData", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "strParam"
+                }, 
+                {
+                    "type": "Integer", 
+                    "name": "intParam"
+                }, 
+                {
+                    "type": "Boolean", 
+                    "name": "boolParam"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 10
+            }, 
+            "returnType": "DataClass", 
+            "type": null
+        }
+    ]
+}
